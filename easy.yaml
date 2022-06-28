@@ -5,7 +5,7 @@ epochs: 5
 loss: crossentropy
 dropout: 0.5
 augmentation: yes
-sampling_factors: 1:1
+sampling_factors: '1:1'
 freeze_batchnorm: validation
 optimizer: adam
 seed: 99
