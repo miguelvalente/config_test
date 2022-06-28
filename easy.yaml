@@ -1,0 +1,12 @@
+type: base_spatial
+classes: violence,neutral
+batch_size: 4
+epochs: 5
+loss: crossentropy
+dropout: 0.5
+augmentation: yes
+sampling_factors: 1:1
+freeze_batchnorm: validation
+optimizer: adam
+seed: 99
+big_float: 000.00000000003
